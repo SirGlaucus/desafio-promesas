@@ -1,6 +1,6 @@
 # Proyecto Sugerencia de video
-### Para visualizar el siguiente desafio solo debe acceder al siguiente link
-### https://sirglaucus.github.io/sugerenciadevideo/
+### Para visualizar el siguiente desafio debe accerder al link, utilizar la opcion inspeccionar del navegador y revisar la consola
+### https://sirglaucus.github.io/desafio-promesas/
 
 En este desafio se utilizo:
 - Callbacks

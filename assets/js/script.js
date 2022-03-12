@@ -14,19 +14,19 @@ const mostrarTitulos = async () => {
         }
     })
 }
+
 const getMensaje = () => { // ● Se debe crear otra función que retorne una promesa, la cual debe tardar tres (3) segundos en resolver
     return new Promise((resolve) => {
         setTimeout(() => { resolve('Información enviada') }, 3000)
     })
 }
 
-
 // Crear una función asíncrona que permita recibir el mensaje de la promesa creada en el requerimiento cinco (5), de forma directa con await,
 // para ser mostrado en la consola del navegador, agregando el llamado a las dos funciones principales.
 const llamadaFunciones = async () => {
     const titulos = await mostrarTitulos()
     const resp = await getMensaje();
-    console.log(titulos)
+    titulos.forEach(dataTitulos => console.log(dataTitulos))
     console.log(resp)
 }
 llamadaFunciones()
